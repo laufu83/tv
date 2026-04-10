@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Tv" parent="Theme.AppCompat.NoActionBar" />
+
+    <style name="MainActivityStyle" parent="Theme.Tv">
+        <item name="android:windowFullscreen">true</item> <!-- 全屏 -->
+        <item name="android:windowBackground">@drawable/tvbg</item>
+    </style>
+
+    <style name="PlayerActivityStyle" parent="Theme.Tv">
+        <item name="android:windowFullscreen">true</item> <!-- 全屏 -->
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:minHeight">0dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@drawable/btn_selector</item>
+    </style>
+
+    <style name="FontSizeActivityStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
