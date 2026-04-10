@@ -16,6 +16,6 @@ object Constant {
     const val FONT_SIZE_HUGE = 1.4f
     const val IPTV_URL= "iptv_url"
 
-    const val IPTV_URL_DEFAULT= "https://raw.githubusercontent.com/laufu83/test/refs/heads/main/jx_iptv_m3u.txt"
-    const val VERSION_URL= "https://raw.githubusercontent.com/laufu83/test/refs/heads/main/app_version.json"
+    const val IPTV_URL_DEFAULT= "https://gitee.com/fred83/test/raw/master/iptv.m3u"
+    const val VERSION_URL= "https://gitee.com/fred83/test/raw/master/app_version.json"
 }
